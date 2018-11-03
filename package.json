@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "mongodb-runner": "mongodb-runner start",
+    "parse-server": "parse-server --appId parse123456 --masterKey 123456 --databaseURI mongodb://127.0.0.1:27017/test-parse"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb-runner": "^4.4.0",
+    "parse-server": "^3.1.1"
+  }
+}
